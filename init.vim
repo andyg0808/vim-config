@@ -49,6 +49,9 @@ syntax enable
 set background=light
 colorscheme solarized
 
+" bufexplorer
+nnoremap <silent> <leader>bb :BufExplorer<CR>
+
 " Enable filetype detection
 filetype plugin on
 
