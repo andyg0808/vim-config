@@ -231,6 +231,8 @@ nmap F <Plug>(easymotion-F)
 let g:ale_fixers = {
 \   'python': ['isort', 'black'],
 \   'javascript': ['prettier'],
+\   'typescript': ['prettier'],
+\   'typescriptreact': ['prettier'],
 \   'perl': ['perltidy'],
 \   'ruby': ['rufo'],
 \   'rust': ['rustfmt'],
@@ -238,6 +240,8 @@ let g:ale_fixers = {
 
 let g:ale_linters = {
 \   'javascript': ['eslint'],
+\   'typescript': ['eslint', 'tsserver'],
+\   'typescriptreact': ['eslint', 'tsserver'],
 \   'ruby': ['rubocop']
 \}
 
